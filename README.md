@@ -1,6 +1,6 @@
 # osx-notification
 
-Command line tool for generating plain notifications on Mac OS X from the command line.
+Generate plain notifications on Mac OS X from the command line.
 
 Use like `notification "Hello notifier" "Hello there, world!"`
 
