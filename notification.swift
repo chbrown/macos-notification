@@ -1,5 +1,4 @@
 #!/usr/bin/env swift
-import Foundation
 import Cocoa
 
 let notification = NSUserNotification()
