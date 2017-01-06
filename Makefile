@@ -1,6 +1,8 @@
-all:
-	@echo 'Valid commands are:'
-	@echo '  install'
+notification: notification.swift
+	xcrun -sdk macosx swiftc $< -O -o $@
 
-install:
-	xcrun -sdk macosx swiftc notification.swift -O -o /usr/local/bin/notification
+install: notification
+	cp $< /usr/local/bin/notification
+
+clean:
+	rm -f notification
